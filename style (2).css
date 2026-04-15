@@ -1,0 +1,53 @@
+body{
+background:#ffe6f0;
+font-family: Arial;
+height: 100px;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background:pink;
+  border:2px solid whitesmoke;
+padding:10px 20px;
+margin: 20px  5px;
+border-radius: 20px;
+box-shadow: 0 10px 20px;
+}
+.navbar button{
+display:flex;
+color:hotpink;
+margin: 10px ;
+border-radius: 20px;
+background:white;
+}
+.container{
+  display: flex;
+}
+.card{
+position: relative;
+border:2px solid hotpink;
+width:150px;
+padding:20px;
+background: seashell;
+justify-content:space-between ;
+flex-wrap:wrap ;
+margin:50px 5px;
+border-radius: 20px;
+text-align: center;
+box-shadow: 0 10px 20px;
+
+
+p{
+  color:hotpink;
+}
+
+}
+.badge{ 
+  position:absolute;
+  top:10px;
+  right:8px;
+  background:hotpink;
+  color:black;
+  border-radius: 10px
+}
